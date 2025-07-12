@@ -1,0 +1,14 @@
+prefix=/Users/saianand/Documents/ml-heart-disease-projectt/venv
+exec_prefix=/Users/saianand/Documents/ml-heart-disease-projectt/venv
+libdir=/Users/saianand/Documents/ml-heart-disease-projectt/venv/lib
+includedir=/Users/saianand/Documents/ml-heart-disease-projectt/venv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/Users/saianand/Documents/ml-heart-disease-projectt/venv/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

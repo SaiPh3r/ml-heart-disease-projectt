@@ -1,0 +1,13 @@
+prefix=/Users/saianand/Documents/ml-heart-disease-projectt/venv
+exec_prefix=/Users/saianand/Documents/ml-heart-disease-projectt/venv
+libdir=/Users/saianand/Documents/ml-heart-disease-projectt/venv/lib
+sharedlibdir=/Users/saianand/Documents/ml-heart-disease-projectt/venv/lib
+includedir=/Users/saianand/Documents/ml-heart-disease-projectt/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
